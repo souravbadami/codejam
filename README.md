@@ -1,2 +1,2 @@
 # codejam
-Solutions to codejam problems.
+My solutions to codejam problems in python.
