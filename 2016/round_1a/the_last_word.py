@@ -10,7 +10,7 @@ from random import *
 
 def main():
     cases=int(raw_input())
-    for i in xrange(cases):
+    for j in xrange(cases):
         word=raw_input()
         _list=list()
         _list=word[0]
@@ -22,7 +22,7 @@ def main():
         	else:
         		_list=insert_str(_list,word[i],0)
         _list=''.join(_list)
-        print(_list[::-1])
+        print("Case #",j+1,":"," ",_list[::-1],sep="")
         
 def insert_str (source_str, insert_str, pos):
     return source_str[:pos]+insert_str+source_str[pos:]
